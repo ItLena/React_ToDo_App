@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #843256;
   text-decoration: inherit;
 }
 a:hover {
@@ -23,11 +23,7 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin: 0;  
 }
 
 h1 {
@@ -65,4 +61,41 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  
 }
+table  {
+   
+    width: 5%;
+  }
+  th, td{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid grey;
+  }
+  tr:hover{
+    background-color: coral;
+  }
+
+  nav li {
+    display: inline;
+    float: left;
+  }
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  
+  }
+  nav li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
