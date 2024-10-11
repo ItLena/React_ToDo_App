@@ -43,7 +43,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border: #9564ff 3px solid; 
 }
 button:focus,
 button:focus-visible {
@@ -59,7 +59,7 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #9deecc;
   }
   
 }
@@ -98,4 +98,10 @@ table  {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  }
+  input {
+    padding: 10px;
+    width: 100%;
+    border: solid 1px #777474;
+    margin-bottom: 1rem;
   }

@@ -1,19 +1,19 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
-import List from './pages/List';
-import Item from './pages/Item';
+import ToDoList from './pages/TodoList';
+// import Item from './pages/Item';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import NavBar from './components/Navbar';
 
-import {Routes, Route, useRoutes} from 'react-router-dom'
+import { useRoutes} from 'react-router-dom'
 
 import './App.css'
 
 function App() {
   let element = useRoutes([
     {path: "/", element: <Home/>},
-    {path: "/list", element: <List/>},
+    {path: "/list", element: <ToDoList/>},
     {path: "*", element: <NotFound/>},
   ])
 

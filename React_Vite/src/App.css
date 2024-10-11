@@ -11,5 +11,14 @@
   align-items: center;
   flex-direction: column;
 }
+.box {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  min-width: 320px;
+  
+  align-items: center;
+  flex-direction: column;
+}
 
 
