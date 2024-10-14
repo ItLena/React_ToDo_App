@@ -55,9 +55,11 @@ setItem('');
             <table>
                 <thead>
                     <tr>
+                        <th>Status</th>
                         <th>To do</th>
                         <th>Date</th>
                         <th>Time</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -73,8 +75,8 @@ setItem('');
             </table>
 
             <form className="box" >
-            <input type="text" onChange={(e)=> setItem(e.target.value)} value={item}/>
-            <button type="submit" onClick={addTodo}>Add</button>
+            <input type="text" onChange={(e)=> setItem(e.target.value)} value={item} placeholder="What are you planning"/>
+            <button className="primary" type="submit" onClick={addTodo}>Add</button>
             </form>
         </>
     );

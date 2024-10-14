@@ -38,12 +38,20 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: whitesmoke;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.primary{
+  background-color: green;
+  color: whitesmoke;
+ }
+ .danger{
+  border: 1px solid red;
+  color: red;
+ }
 button:hover {
-  border: #9564ff 3px solid; 
+  border: #d8e864 3px solid; 
 }
 button:focus,
 button:focus-visible {
@@ -58,22 +66,26 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #9deecc;
-  }
+
   
 }
-table  {
-   
-    width: 5%;
+table {   
+    max-width: 80%;
+    min-width: 320px;   
+    box-shadow: 8px 12px 10px #c4ced1; 
+    border-radius: 5%;
+  }
+  th{
+    background-color: #213547;
+    color: whitesmoke
   }
   th, td{
     padding: 5px;
-    text-align: left;
-    border-bottom: 1px solid grey;
+    text-align: center;   
   }
+  
   tr:hover{
-    background-color: coral;
+    background-color: lightblue;
   }
 
   nav li {
@@ -85,7 +97,7 @@ table  {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #213547;
   position: fixed;
   top: 0;
   width: 100%;
@@ -103,5 +115,6 @@ table  {
     padding: 10px;
     width: 100%;
     border: solid 1px #777474;
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
+  

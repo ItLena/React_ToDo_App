@@ -5,10 +5,11 @@ const ToDoItem = ({todo, deleteItem, index})=> {
 return (
     <>
     <tr>
+        <td><input type="checkbox"></input></td>
         <td>{todo.action}</td>
         <td>{todo.date}</td>
         <td>{todo.time}</td>
-        <td><button onClick={()=>deleteItem(index)}>Delete</button></td>
+        <td><button className="danger" onClick={()=>deleteItem(index)}>Delete</button></td>
     </tr> 
     </>
 );
